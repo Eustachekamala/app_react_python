@@ -64,14 +64,7 @@ I would also like to thank [MUI](https://mui.com/) for providing a set of React 
 
 I would also like to thank [React Router](https://reactrouter.com/) for providing a declarative way to handle routing in React applications.
 
-## Made by Eustache Katembo
-
-<a href="https://www.linkedin.com/in/eustachekamalakatembo/">
-  <img align="left" alt="Eustache Katembo | LinkedIn" width="24px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/linkedin.svg" />
-</a>
-<a href="https://github.com/eustachekamala">
-  <img align="left" alt="Eustache Katembo | GitHub" width="24px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/github.svg" />
-</a>
+## Made by Eustache Katembo 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
