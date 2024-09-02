@@ -30,7 +30,7 @@ def get_users():
         {
         "id": 5,
         "name": "Rex",
-        "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAzXLUJcykcXqn1rhJBY2R5s5dToztoPqMQ&s",
         "likes": 1
         },
         {

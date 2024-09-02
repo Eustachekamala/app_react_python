@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { useState, useEffect } from 'react'
+import AddIcon from '@mui/icons-material/Add';
 
 
 function Dashboard(){
@@ -20,14 +21,14 @@ function Dashboard(){
     }
     
     return(
-        <div className="flex flex-col gap-4 justify-center items-center bg-gray-100">
+        <div className="flex flex-col gap-4 justify-center items-center pb-4">
             <h1 className='text-center text-2xl font-bold py-2'>Toys List</h1>
             <div className="flex flex-wrap gap-4 justify-center items-center">
                 {toys.map((toy, index) => (
-                    <div className="flex flex-col gap-2 justify-center items-center" key={index}>
+                    <div className="flex flex-col gap-2 justify-center items-center w-44 p-4  border-2 border-gray-300 rounded-lg  hover:scale-110" key={index}>
                         <img src={toy.image} alt={toy.name} className="w-32 h-32 rounded-full" />
                         <div className="flex flex-col gap-1 justify-center items-center">
-                            <h2>{toy.name}</h2>
+                            <h2 className='text-center text-xl font-bold'>{toy.name}</h2>
                             <p>{toy.likes}</p>
                         </div>
                     </div>
@@ -35,7 +36,7 @@ function Dashboard(){
             </div>
             <div className='flex flex-col gap-2 justify-center items-center'>
                 <button onClick={addToy} className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'>
-                    Add Toy
+                    <AddIcon />
                 </button>
             </div>
         </div>
